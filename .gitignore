@@ -38,3 +38,6 @@ next-env.d.ts
 !.vscode/extensions.json
 .idea
 /backup
+
+# local research/plan notes (public repo)
+/thoughts
