@@ -6,6 +6,11 @@ updates:
       interval: "weekly"
     target-branch: "develop"
     open-pull-requests-limit: 10
+    # Major versions are migrations, not merges; handle them deliberately.
+    # Security updates ignore this rule and are still opened.
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     groups:
       radix-ui:
         patterns:
