@@ -4,8 +4,8 @@ This is a [Next.js](https://nextjs.org) project using the App Router and TypeScr
 
 ## Prerequisites
 
-- Node.js 18.x or later
-- pnpm 8.x or later ([Installation guide](https://pnpm.io/installation))
+- Node.js 24.x (see `.nvmrc`; run `nvm use`)
+- pnpm 10.x or later ([Installation guide](https://pnpm.io/installation))
 - A Resend API key ([Sign up here](https://resend.com))
 
 ## Getting Started
